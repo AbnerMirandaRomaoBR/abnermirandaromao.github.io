@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Faceburger</title>
+	<h1 class="color1"> Faceburger-Pedidos Online</h1>
+	<link rel="stylesheet" href="../aulasWeb/Estilo.CSS">
+</head>
+
+<body>
+	<fieldset>
+		<legend class="color1">Tabela Nutricional</legend>
+		<table border="1">
+			<tr>
+				<th colspan="3"> INFORMAÇÃO NUTRICIONAL</th>
+			</tr>
+			<tr>
+				<td colspan="3">Porção de 200g</td>
+			</tr>
+			<tr>
+				<td colspan="2">QUANTIDADE POR PORÇÂO</td>
+				<td>% Valores Diários</td>
+			</tr>
+			<tr>
+				<td>Valor Energético</td>
+				<td>322kcal</td>
+				<td>16,00%</td>
+			</tr>
+			<tr>
+				<td>Carboidratos</td>
+				<td>42,99g</td>
+				<td>14,30%</td>
+			</tr>
+			<tr>
+				<td>Proteínas</td>
+				<td>13,37g</td>
+				<td>16,07%</td>
+			</tr>
+			<tr>
+				<td>Gorduras totais</td>
+				<td>11,21g</td>
+				<td>14,00%</td>
+			</tr>
+			<tr>
+				<td>Gorduras Saturadas</td>
+				<td>0,7g</td>
+				<td>3,00%</td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset class="color1">
+		<legend>Dados do Pedido-Adicionais</legend>
+		<form>
+			<ul>
+				<li><input type="checkbox" name="dados" value="Salada"> Salada<br>
+				<li><input type="checkbox" name="dados2" value="Queijo"> Queijo<br>
+				<li><input type="checkbox" name="dados3" value="Ovo"> Ovo<br>
+				<li><input type="checkbox" name="dados4" value="Bacon"> Bacon<br>
+				<li><input type="checkbox" name="dados5" value="Cogumelos"> Cogumelos<br>
+			</ul>
+		</form>
+	</fieldset>
+	<fieldset class="color1">
+		<legend>Dados do Cartão</legend>
+		<ol>
+			<li>
+				<fieldset>
+					<legend>Tipos de Cartão</legend>
+					<input type="radio" name="tipos" value="VISA"> VISA<br>
+					<input type="radio" name="tipos" value="MASTER"> MASTER<br>
+					<input type="radio" name="tipos" value="ELO"> ELO<br>
+				</fieldset>
+			</li>
+			<br>
+			<li><text>Número do Cartão:</text><input type="text">
+				<br>
+			<li><text>Código de Segurança:</text><input type="text">
+				<br>
+			<li><text>Nome do Cartão:</text><input type="text">
+				<br>
+		</ol>
+	</fieldset>
+	<input type="submit" name="bloquinho" value="Enviar Dados">
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+html {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: #F49F1C;
+
+}
+
+table {
+  border: 3px solid rgb(31, 3, 79);
+  color: #030e4f;
+}
+
+.color1 {
+  color: #030E4F;
+}
+
+fieldset {
+  border-radius: 20px;
+  border: 3px solid darkslateblue;
+}
+
+/*html {
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  width: 95vw;
+  height: 96.9vh;
+  background: url('../imgs/hamburgão.jpg');
+  background-size: cover;
+}
+
+table {
+  border: 3px solid rgb(31, 3, 79);
+  color: #030e4f;
+}
+
+.color1 {
+  color: #030E4F;
+}
+
+fieldset {
+  border-radius: 20px;
+  border: 3px solid darkslateblue;
+}*/
+/*com hamburguer*/
